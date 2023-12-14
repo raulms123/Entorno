@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario del Día de la Semana</title>
+</head>
+<body>
+    <form action="DiaSemanaServlet" method="post">
+        <label>Ingrese un número del 1 al 7:</label>
+        <input type="number" name="numero" required><br>
+
+        <input type="submit" value="Obtener Día">
+    </form>
+</body>
+</html>
